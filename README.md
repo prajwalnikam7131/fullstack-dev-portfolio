@@ -44,19 +44,19 @@ Completed a web development internship where I gained hands-on experience in bui
 
 ## Projects
 
-1. **[StayVista](https://satyvista-book-your-hotel.onrender.com/listings)**  
+1. **StayVista [Go to Project Live](https://satyvista-book-your-hotel.onrender.com/listings)**  
    A full-stack hotel booking web application that implements CRUD operations.
    - **Tech Stack**: HTML, CSS, JavaScript, Node.js, Express.js, EJS, MongoDB, and more.
 
-2. **[User Management System](https://user-management-system-web-app.onrender.com/dashboard)**  
+2. **User Management System [Go to Project Live](https://user-management-system-web-app.onrender.com/dashboard)**  
    A user management system for efficient customer information management.
    - **Tech Stack**: HTML, CSS, JavaScript, Node.js, Express.js, MongoDB, and more.
 
-3. **[Sticky Notes App](https://prajwalnikam7131.github.io/react-sticky-notes-web-app/)**  
+3. **Sticky Notes App [Go to Project Live](https://prajwalnikam7131.github.io/react-sticky-notes-web-app/)**  
    A simple web application for creating and managing sticky notes.
    - **Tech Stack**: HTML, CSS, JavaScript, React.
 
-4. **[JavaScript Dictionary](https://prajwalnikam7131.github.io/JavaScript-dictionary/)**  
+4. **JavaScript Dictionary [Go to Project Live](https://prajwalnikam7131.github.io/JavaScript-dictionary/)**  
    An interactive dictionary application for searching words and viewing definitions.
    - **Tech Stack**: HTML, CSS, JavaScript.
 
