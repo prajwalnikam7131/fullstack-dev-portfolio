@@ -1,0 +1,315 @@
+@media screen and (max-width:1200px) {
+    #nav {
+        display: none;
+    }
+
+    #hamburger-nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 10vh;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 1200px) {
+
+    /* Every section */
+    section {
+        /* Dev purpose */
+        /* background-color: wheat; */
+        margin: 0 0.5rem;
+    }
+
+    .about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about .about-text {
+        /* Dev purpose */
+        /* background-color: purple; */
+        width: 100%;
+        margin: 10vh auto 5vh;
+        padding-left: 2rem;
+    }
+
+    .about-text p {
+        font-size: 1.7rem;
+    }
+
+    .about-btns {
+        justify-content: center;
+        margin-top: 2rem;
+    }
+
+    .social-icons {
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    /* about profile img */
+    .about .profile-pic {
+        width: 100%;
+    }
+
+    .profile-pic img {
+        width: 350px;
+        height: 350px;
+    }
+
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    section {
+        /* Dev purpose */
+        /* background-color: palegreen; */
+        margin: 0 0.3rem;
+    }
+
+    .about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about .about-text {
+        /* Dev purpose */
+        /* background-color: purple; */
+        width: 100%;
+        margin: 5vh auto 5vh;
+        padding-left: 0.5rem;
+    }
+
+    .about-text p {
+        font-size: 1.4rem;
+    }
+
+    .about-text span {
+        font-size: 1.2rem;
+    }
+
+    .about-btns {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+        margin-left: 0;
+    }
+
+    .social-icons {
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    /* about profile img */
+    .about .profile-pic {
+        width: 100%;
+    }
+
+    .profile-pic img {
+        width: 300px;
+        height: 300px;
+    }
+
+    /***  About Me Section ***/
+
+    .aboutUs h1 {
+        font-size: 1.7rem;
+        padding: 1rem 0;
+    }
+
+    .aboutus-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* justify-content: center; */
+    }
+
+    .aboutUs-pic {
+        /* background-color: #00bcd4; */
+        width: 100%;
+    }
+
+    .aboutUs-pic img {
+        width: 300px;
+    }
+
+    .aboutUs-pic img:hover {
+        transform: none;
+    }
+
+    .aboutus-containt {
+        /* background-color: wheat; */
+        width: 100%;
+        padding: 5px;
+    }
+
+    .aboutus-containt .education h3 {
+        font-size: 1.3rem;
+    }
+
+    .aboutus-containt .education ul {
+        font-size: 1rem;
+    }
+
+    .aboutus-containt .education ul li {
+        line-height: 1.5;
+    }
+
+    .aboutus-containt .internship p {
+        font-size: 1rem;
+        padding: 0px 0px 5px;
+    }
+
+    .aboutus-containt .internship li {
+        list-style: none;
+        padding-left: 0px;
+        font-size: 1rem;
+        text-align: left;
+        line-height: 1.5;
+    }
+
+    .aboutus-containt .internship strong {
+        text-decoration: underline;
+    }
+
+    /* Skills and Technologies Section */
+
+    #skills h1 {
+        font-size: 1.7rem;
+        padding: 1rem 0;
+    }
+
+    .frontend-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto;
+        align-items: center;
+        justify-items: center;
+
+    }
+
+    .skills-boxs {
+        /* background-color: violet; */
+        width: 90px;
+        height: 120px;
+        font-size: 0.7rem;
+    }
+
+    .skills-boxs img {
+        width: 90%;
+        padding: 2px;
+    }
+
+    /* Project section */
+
+    #projects h1 {
+        font-size: 1.7rem;
+        padding: 1rem 0;
+    }
+
+    #projects>p {
+        font-size: 1rem;
+        padding: 0 0 1rem 0;
+        text-align: left;
+    }
+
+    .project-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem 0;
+    }
+
+    .project-box {
+        background-color: #EEEEEE;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        min-height: 320px;
+    }
+
+    .project-box-img {
+        display: none;
+    }
+
+    .project-box-right-side {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .project-box-description p {
+        padding-bottom: 8px;
+        text-align: justify;
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+
+    .project-box-description p>strong {
+        text-decoration: none;
+    }
+
+    .project-box-buttons {
+        margin-top: 1rem;
+    }
+
+    /*** Contact Section ***/
+    #contact h1 {
+        font-size: 1.7rem;
+    }
+
+    .contact-box i {
+        font-size: 1.2rem;
+    }
+
+    .contact-box a {
+        font-size: 1rem;
+    }
+
+    footer>p {
+        font-size: 1.1rem;
+    }
+
+}
+
+
+/* Extra large monitor */
+@media only screen and (min-width: 1600px) {
+
+    .main {
+        /* background-color: wheat; */
+        width: 1600px;
+        margin: auto;
+    }
+
+    .about-text p {
+        font-size: 2.5rem;
+        line-height: 1.2;
+    }
+
+    .about-text span {
+        font-size: 2.2rem;
+    }
+
+    .profile-pic img {
+        width: 500px;
+        height: 500px;
+    }
+
+    .aboutUs-pic img {
+        width: 350px;
+    }
+
+    /* Skills and Technologies Section */
+    .frontend-container {
+        margin-bottom: 2rem;
+    }
+    
+}
